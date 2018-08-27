@@ -20,6 +20,14 @@ body {
   background-size: cover;
 }
 
+.signup-body {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/food.jpg) fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar-light .navbar-toggler {
   border: none;
 }
