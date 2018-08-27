@@ -1,0 +1,112 @@
+body {
+    background: url(../images/food.jpg);
+    background-size: cover;
+}
+
+.insert {
+    display: block;
+    width: 20em;
+    height: 2em;
+    padding: 0.5em;
+    margin: 1em auto;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(52, 52, 194);
+    font-family: Cambria, Cochin, Georgia;
+}
+
+.login {
+    display: block;
+    width: 20em;
+    line-height: 1.2em;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: white;
+    background-color: rgb(36, 36, 160);
+    font-size: 1.2em;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.login:hover {
+    background-color: rgb(61, 61, 199);
+}
+
+.login:active {
+    background-color: white;
+    color: rgb(61, 61, 199);
+}
+
+form {
+    margin: 10em auto;
+    ;
+    padding: 2em;
+    width: 60em;
+}
+
+/*Footer Styling*/
+
+.footer {
+    background-color: #eee;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    bottom: 0;
+    box-sizing: border-box;
+    text-align: center;
+    max-height: 200px;
+    padding: 40px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer .footer-company-motto {
+    color: #8d9093;
+    font-size: 18px;
+    margin: 0;
+}
+
+.footer .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer .footer-links {
+    list-style: none;
+    font-weight: bold;
+    color: #8d9093;
+    padding: 25px 0 20px;
+    margin: 0;
+}
+
+.footer .footer-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #79589F;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 35px;
+    }
+    .footer .footer-company-motto {
+        font-size: 18px;
+    }
+    .footer .footer-company-name {
+        font-size: 12px;
+    }
+    .footer .footer-links {
+        font-size: 14px;
+        padding: 15px 0 10px;
+    }
+    .footer .footer-links a {
+        line-height: 1.8;
+    }
+}
