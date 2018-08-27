@@ -55,7 +55,7 @@
     <!--Main Content-->
     <div class="container py-5" id="main-content">
         <div>
-            <form class="form-register needs-validation" novalidate>
+            <form action="index.html" id="signup" method="post">
                 <div class="text-center mb-4">
                     <h2 class="h3 mb-2 font-weight-bold text-uppercase">Create New Account</h2>
                     <small class="text-muted"> Or
@@ -65,33 +65,31 @@
                     <!--First Name and Last Name inline on larger screens-->
                     <div class="col-sm-6">
                         <div class="form-label-group">
-                            <input type="text" id="firstName" class="form-control" placeholder="First Name" required autofocus>
+                            <input type="text" name="firstName" id="firstName" class="form-control" placeholder="First Name" required autofocus>
                             <label for="firstName">First Name</label>
-                            <div class="invalid-feedback">Please provide your First Name.</div>
                         </div>
                     </div>
                     <div class="col-sm-6">
                         <div class="form-label-group">
-                            <input type="text" id="lastName" class="form-control" placeholder="Last Name" required autofocus>
+                            <input type="text" name="lastName" id="lastName" class="form-control" placeholder="Last Name" required autofocus>
                             <label for="lastName">Last Name</label>
-                            <div class="invalid-feedback">Please provide your Last Name.</div>
                         </div>
                     </div>
                 </div>
                 <div class="form-label-group">
-                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Username" required>
+                    <label for="username">User Name</label>
+                </div>
+                <div class="form-label-group">
+                    <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
                     <label for="inputEmail">Email address</label>
-                    <div class="invalid-feedback">Please provide your Email Address.</div>
                 </div>
                 <div class="form-label-group">
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>
                     <label for="inputPassword">Password</label>
-                    <div class="invalid-feedback">Please provide your Password.</div>
                 </div>
                 <div class="form-label-group">
-                    <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required>
-                    <label for="confirmPassword">Confirm Password</label>
-                    <div class="invalid-feedback">Please confirm your Password.</div>
+                    <input name="userImage" type="file" accept="image/*" required>
                 </div>
                 <button class="btn style-btn" type="submit">Register</button>
             </form>
@@ -105,7 +103,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="JS/form-validation.js"></script>
+    <script src="Js/main.js"></script>
 </body>
 
 </html>
